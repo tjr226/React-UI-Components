@@ -1,0 +1,12 @@
+.footer-icons {
+    width: 50%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer-icons img {
+    width: 10%;
+    height: 10%;
+}

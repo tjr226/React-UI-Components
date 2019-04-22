@@ -1,17 +1,23 @@
-// import React from 'react';
-// import './Footer.scss';
+import React from 'react';
+import './Footer.css';
+import heart from './FooterIcons/heart.png';
+import mail from './FooterIcons/message-closed-envelope.png';
+import message from './FooterIcons/speech-bubble.png';
+import update from './FooterIcons/update-arrows.png';
 
-// const FooterIcons = () => {
-//     return (
-//         <div>
-//             <img className="footer-icon" src{''} alt="" />
-//             <img className="footer-icon" src{''} alt="" />
+const FooterIcons = () => {
+    return (
+        <div className="footer-icons">
+            <img src={message} alt="message" />
+            <img src={update} alt="update" />
+            <img src={heart} alt="heart" />
+            <img src={mail} alt="mail" />
 
-//             <img className="footer-icon" src{''} alt="" />
-
-//             <img className="footer-icon" src{''} alt="" />
+            
 
 
-//         </div>
-//     )
-// }
+        </div>
+    )
+}
+
+export default FooterIcons
