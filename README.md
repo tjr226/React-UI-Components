@@ -6,8 +6,8 @@
 
 - This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
 - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
-- To start the `Social Card` project, you'll need to cd into `Project-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
-- Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
+- [ x ] To start the `Social Card` project, you'll need to cd into `Project-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
+- [ x ] Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructions
@@ -57,6 +57,7 @@
 
 ## _Project II - React Calculator_
 
+- [ ] repeat Yarn setup from Project I
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
 - All the files you'll need for this project are found in `Project-II-Calculator/calculator/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `ButtonComponents` directory you should see a couple `.js` files and a `.css` file.
