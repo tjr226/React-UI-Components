@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss';
+import './Header.css';
 
 // import './HeaderContent';
 // import './HeaderTitle';
@@ -9,10 +9,12 @@ import HeaderContent from './HeaderContent'
 
 const HeaderContainer = () => {
     return (
-        <div>
+        <div className="header-container">
             <ImageThumbnail />
-            <HeaderTitle />
-            <HeaderContent />
+            <div className="header-right-side">
+                <HeaderTitle />
+                <HeaderContent />
+            </div>
         </div>
     );
 }

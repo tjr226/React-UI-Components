@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
 import './components/HeaderComponents/HeaderContainer.js'
 import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 import CardContainer from './components/CardComponents/CardContainer';
@@ -8,7 +8,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 const App = () => {
 
   return (
-    <div>
+    <div className="app-container">
       <HeaderContainer />
       <CardContainer />
     </div>
