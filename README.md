@@ -23,7 +23,7 @@
 ## _Project I - Social Card_
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
-- All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
+- [ x] All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
 - Feel free to add any files for any extra components you may feel the need to build.
 - Any of the styles you write in your respective `.css` file should be available for your the components where the `.css` file is being imported.
 - We have drawn boxes around possible areas that could be components.
@@ -37,23 +37,23 @@
 
 #### Project 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- [ x ] Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - [ x ] Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
+  - [ ] Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - [ ] Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+- [ ] Create a `<CardContainer/ >` container component that will hold your card components.
+  - [ ] Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
+  - [ ] Create a `<CardContent />` component that displays the card copy provided.
+  - [ ] The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
 #### Project 1 Stretch Problems
 
-- Create a `<Footer/>` component that pulls in the icons and displays them properly.
-  - Build out the functionality so that a user can click on the icons and have them react to events.
-- Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
-- Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
+- [ ] Create a `<Footer/>` component that pulls in the icons and displays them properly.
+  - [ not today ] Build out the functionality so that a user can click on the icons and have them react to events.
+- [ not today ] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+- [ ] Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
 
 ## _Project II - React Calculator_
 
