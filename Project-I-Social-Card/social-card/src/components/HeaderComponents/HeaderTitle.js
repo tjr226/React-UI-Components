@@ -6,7 +6,7 @@ const HeaderTitle = () => {
     return (
         <div>
             <h3>Lambda School</h3>
-            <p classTitle="header-title-small">@LambdaSchool · {date.toLocaleDateString()}</p>
+            <p className="header-title-small">@LambdaSchool · {date.toLocaleDateString()}</p>
         </div>
     )
 }
