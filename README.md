@@ -52,8 +52,8 @@
 
 - [ x ] Create a `<Footer/>` component that pulls in the icons and displays them properly.
   - [ not today ] Build out the functionality so that a user can click on the icons and have them react to events.
-- [ partially done, not really] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
-- [ ] Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
+- [ not today ] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+- [ not today ] Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
 
 ## _Project II - React Calculator_
 

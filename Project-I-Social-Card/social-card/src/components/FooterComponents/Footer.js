@@ -13,8 +13,6 @@ const FooterIcons = () => {
             <img src={heart} alt="heart" />
             <img src={mail} alt="mail" />
 
-            
-
 
         </div>
     )
