@@ -57,7 +57,7 @@
 
 ## _Project II - React Calculator_
 
-- [ ] repeat Yarn setup from Project I
+- [ x ] repeat Yarn setup from Project I
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
 - All the files you'll need for this project are found in `Project-II-Calculator/calculator/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `ButtonComponents` directory you should see a couple `.js` files and a `.css` file.

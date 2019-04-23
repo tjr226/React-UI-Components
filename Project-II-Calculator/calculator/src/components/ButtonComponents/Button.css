@@ -1,3 +1,7 @@
 .numberButtonStyle {
     background-color: grey;
 }
+
+.action-button {
+    width: 100%;
+}
