@@ -10,3 +10,7 @@
     align-items: center;
     
 }
+
+.calculator-display p {
+    padding-right: 10px;
+}
