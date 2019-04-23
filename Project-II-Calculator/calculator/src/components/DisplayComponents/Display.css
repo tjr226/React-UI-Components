@@ -1,3 +1,12 @@
 .calculator-display {
-    width: 100%;
+    color: white;
+    background: #404244;
+    font-size: 30px; 
+    width: 400px;
+    height: 150px;
+    border: 2px lightgrey solid;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
 }

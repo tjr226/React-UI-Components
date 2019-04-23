@@ -1,29 +1,12 @@
 .app-container {
-    width: 300px;
-}
-
-.calculator-display {
-    text-align: right;
-    padding: 10% 0%;
-    color: white;
-    background: #2a2b2d;
-}
-
-.actions-and-numbers {
-    width: 75%;
-}
-
-.actions-and-numbers .action-button {
-    padding: 10% 0%;
+    width: 400px;
+    display: block;
+    flex-direction: column;
 }
 
 .number-row {
-    width: 100%
-}
-
-.number-row .numberButtonStyle {
-    width: 33%;
-    padding: 16.5% 0% ;
+    width: 300px;
+    height: 100px;
 }
 
 .square-buttons {
@@ -33,11 +16,5 @@
 .math-functions {
     display: flex;
     flex-direction: column;
-    width: 33%;
-    /* padding: 16.5% 0%; */
 }
 
-.math-functions .numberButtonStyle {
-    width: 100%;
-    padding: 31.52% 0%;
-}

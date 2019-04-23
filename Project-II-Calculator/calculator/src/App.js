@@ -6,10 +6,10 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div className="app-container">
+    <span className="app-container">
       <CalculatorDisplay className="calculator-display" displayValue="3" />
 
-      <div className="square-buttons">
+      <span className="square-buttons">
 
         <div className="actions-and-numbers">
           <ActionButton className="action-button" text="clear" />
@@ -44,10 +44,10 @@ const App = () => {
 
 
         {/* end square buttons */}
-      </div>
+      </span>
 
       {/* end app div */}
-    </div>
+    </span>
   );
 };
 
