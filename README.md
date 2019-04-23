@@ -82,6 +82,7 @@
 - [ x ] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 - [ x ] Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
+- [ x ] new branch for calculator 
 #### Project 2 Stretch Problems
 
 - Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
