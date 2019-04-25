@@ -1,1 +1,23 @@
-/* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.logo-img {
+    width: 18%;
+    height: 18%;
+}
+
+.header-right-side {
+    padding-left: 2%;
+    width: 80%;
+}
+
+.header-title {
+    display: flex;
+
+    align-items: center;
+}
+.header-title-small {
+    padding-left: 10px;
+    color: grey;
+}

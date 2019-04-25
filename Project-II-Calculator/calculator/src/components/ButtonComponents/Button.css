@@ -1,0 +1,23 @@
+.numberButtonStyle {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border: 2px lightgrey solid;
+
+}
+
+.math-functions .numberButtonStyle {
+    width: 100px;
+    height: 100px;
+    border: 2px lightgrey solid;
+    background: maroon;
+    color: white;
+}
+
+.action-button {
+    width: 300px;
+    font-size: 20px;
+    height: 100px;
+    border: 2px lightgrey solid;
+}

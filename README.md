@@ -6,8 +6,8 @@
 
 - This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
 - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
-- To start the `Social Card` project, you'll need to cd into `Project-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
-- Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
+- [ x ] To start the `Social Card` project, you'll need to cd into `Project-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
+- [ x ] Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructions
@@ -23,7 +23,7 @@
 ## _Project I - Social Card_
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
-- All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
+- [ x] All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
 - Feel free to add any files for any extra components you may feel the need to build.
 - Any of the styles you write in your respective `.css` file should be available for your the components where the `.css` file is being imported.
 - We have drawn boxes around possible areas that could be components.
@@ -37,26 +37,27 @@
 
 #### Project 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- [ x ] Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - [ x ] Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
+  - [ x ] Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - [ x ] Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+- [ x ] Create a `<CardContainer/ >` container component that will hold your card components.
+  - [ x ] Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
+  - [ x ] Create a `<CardContent />` component that displays the card copy provided.
+  - [ x ] The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
 #### Project 1 Stretch Problems
 
-- Create a `<Footer/>` component that pulls in the icons and displays them properly.
-  - Build out the functionality so that a user can click on the icons and have them react to events.
-- Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
-- Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
+- [ x ] Create a `<Footer/>` component that pulls in the icons and displays them properly.
+  - [ not today ] Build out the functionality so that a user can click on the icons and have them react to events.
+- [ not today ] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+- [ not today ] Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
 
 ## _Project II - React Calculator_
 
+- [ x ] repeat Yarn setup from Project I
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
 - All the files you'll need for this project are found in `Project-II-Calculator/calculator/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `ButtonComponents` directory you should see a couple `.js` files and a `.css` file.
@@ -70,16 +71,16 @@
 
 #### Project 2 MVP requirements
 
-- Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
-  - Example your component should be able to render a dynamic prop called text:
-  - Your button button should also be able to accept dynamic props `buttonStyle` for styling
+- [ x ] Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
+  - [ x] Example your component should be able to render a dynamic prop called text:
+  - [ x ] Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
 ```js
 <button className={props.buttonStyle}>{props.text}</button>
 ```
 
-- Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
-- Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
+- [ x ] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
+- [ x ] Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
 #### Project 2 Stretch Problems
 
